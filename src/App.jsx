@@ -205,7 +205,7 @@ export default function App() {
           <div>
             <Panel title="Comparative Analysis" style={{ marginBottom: 16 }}>
               <p style={{ fontSize: 13, color: '#64748b', marginBottom: 0 }}>
-                All 8 algorithms are run on your current process set. Results are shown side-by-side.
+                All 6 algorithms are run on your current process set. Results are shown side-by-side.
                 Add processes on the Simulator tab first.
               </p>
             </Panel>
@@ -221,7 +221,7 @@ export default function App() {
           <div>
             <Panel title="Real-Time System Monitor" style={{ marginBottom: 14 }}>
               <p style={{ fontSize: 13, color: '#64748b' }}>
-                Live stats read from your machine's <code style={{ color: '#63b3ed', fontSize: 12 }}>/proc</code> filesystem —
+                Live stats read from your machine's filesystem —
                 CPU per-core, RAM, network I/O, and process table, updated every second.
                 Requires <code style={{ color: '#f6ad55', fontSize: 12 }}>node server.js</code> to be running locally.
               </p>
